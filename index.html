@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Projects</title>
+	<style>
+		h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+		.container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			grid-gap: 20px;
+			padding: 20px;
+		}
+		.project {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: center;
+			background-color: #f9f9f9;
+		}
+		.project img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+		.project a {
+			color: #333;
+			text-decoration: none;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Multi-Feature Website</h1>
+	<div class="container">
+		<div class="project">
+			<a href="editor.html">
+				<img src="Images/editor.jpg" alt="Editor Image">
+				<h3>Code Playground</h3>
+			</a>
+		</div>
+		<div class="project">
+			<a href="editor.html?project=0001">
+				<img src="Images/project1.png" alt="Project 1 Preview">
+				<h3>Tic-Tac-Toe</h3>
+			</a>
+		</div>
+		<div class="project">
+			<a href="editor.html?project=0002">
+				<img src="Images/project2.png" alt="Project 2 Preview">
+				<h3>Calculator</h3>
+			</a>
+		</div>
+		<div class="project">
+			<a href="https://www.example.com/project3">
+				<img src="Images/project3.png" alt="Project 3 Preview">
+				<h3>Project 3</h3>
+			</a>
+		</div>
+        <div class="project">
+			<a href="https://www.example.com/project4">
+				<img src="Images/project4.png" alt="Project 4 Preview">
+				<h3>Project 4</h3>
+			</a>
+		</div>
+		<!-- Add more project divs as needed -->
+	</div>
+</body>
+</html>
